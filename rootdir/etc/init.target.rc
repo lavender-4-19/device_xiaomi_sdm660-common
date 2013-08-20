@@ -142,6 +142,9 @@ on boot
     chmod 0664 /sys/touchpanel/double_tap
     chmod 0664 /sys/touchpanel/reversed_keys
 
+# Prevents permission denied error for telephony
+    chmod 0644 /proc/cmdline
+
 #Peripheral manager
 service vendor.per_mgr /system/vendor/bin/pm-service
     class core
