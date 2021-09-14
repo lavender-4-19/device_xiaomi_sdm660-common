@@ -195,9 +195,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey \
     android.hardware.drm@1.4.vendor
 
-PRODUCT_PACKAGES += \
-    android.hardware.broadcastradio@1.0-impl
-
 # FM
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_PACKAGES += \
