@@ -183,6 +183,13 @@ persist.sys.binary_xml=false
 # Time
 persist.vendor.delta_time.enable=true
 
+# USB
+persist.vendor.usb.config.extra=none
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.rmnet.func.name=rmnet_bam
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=rndis_bam
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
 
