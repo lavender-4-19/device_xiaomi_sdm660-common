@@ -278,6 +278,11 @@
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
+    <bool name="config_multiColorNotificationLed">false</bool>
+
+    <!-- Is the Battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+    <bool name="config_multiColorBatteryLed">false</bool>
 
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
