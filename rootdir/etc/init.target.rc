@@ -281,3 +281,8 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
      group system wakelock
+
+on property:vendor.post_boot.parsed=1
+    # Back to default VM settings
+    write /proc/sys/vm/dirty_expire_centisecs 3000
+    write /proc/sys/vm/dirty_background_ratio 10
