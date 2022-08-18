@@ -96,6 +96,7 @@ persist.dirac.acs.storeSettings=1
 debug.cpurend.vsync=false
 
 # Display
+debug.sf.disable_client_composition_cache=1
 debug.hwui.use_buffer_age=false
 debug.sdm.support_writeback=0
 debug.sf.early_app_phase_offset_ns=1500000
