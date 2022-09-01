@@ -9,6 +9,8 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 vendor.display.disable_rotator_downscale=1
+renderthread.skia.reduceopstasksplitting=true
+debug.renderengine.backend=skiaglthreaded
 
 # Graphics
 persist.sys.sf.native_mode=0
