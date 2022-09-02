@@ -29,3 +29,6 @@ telephony.lteOnCdmaDevice=1
 
 # Watchdog
 ro.hw_timeout_multiplier=3
+
+#Disable MTE Async for system server
+arm64.memtag.process.system_server=off
